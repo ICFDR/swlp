@@ -1,0 +1,87 @@
+*{
+    font-size: 17px;
+    font-family: arial;
+}
+html body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul li{
+    list-style: none;
+}
+#nav{  
+    width: 90vw;
+    margin: 0 0 auto auto;
+}
+#nav ul{
+    display: flex;
+    background: coral;
+    justify-content: space-evenly;
+    margin: 0px;
+    padding: 0px;
+}
+#nav ul li{
+    padding: 20px 20px;
+    cursor: pointer;
+}
+#nav ul li:hover{
+    background: darkslateblue;
+    transition: 0.5s;
+    color: floralwhite;
+}
+#b-1-carousel{
+    height: 50vh;
+    width: 100vw;
+}
+#b-1-quote p{
+    padding: 10px;
+    background: rgb(49, 49, 88);
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+#b-1-desc {
+    margin: 15px auto;
+    width: 70vw;
+}
+#b-1-desc p{
+    text-align: justify;
+}
+#b-1-social{
+    margin: 10px auto;
+    width: 60vw;
+}
+#b-1-social ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+#b-1-social ul li a{
+    font-size: 30px;
+}
+@media (max-width:600px){
+    #nav{
+        width: 100vw;
+    }
+    #nav ul{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(5, 40px);
+    }
+    #nav ul li{
+        padding: 15px;
+        background: coral;
+    }
+    #nav ul li:hover{
+        background: darkslateblue;
+        transition: 0.5s;
+        color: floralwhite;
+    }
+    #b-1-social{
+        margin: 10px auto;
+        width: 100vw;
+    }
+}
