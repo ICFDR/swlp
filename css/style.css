@@ -14,7 +14,7 @@ html body{
     font-size: 15px;
 }
 .carousel-item {
-    height:350px;
+    height:400px;
     width: 100%;
 }
 
@@ -26,8 +26,7 @@ html body{
 
 }
 #quote{
-    margin-top:50px;
-    padding: 20px;
+    padding:10px;
     background: #383E56;
     color: white;
     text-align: center;
@@ -65,11 +64,4 @@ html body{
 
 #b-1-social ul li a{
     font-size: 30px;
-}
-
-@media (max-width:600px){
-    #b-1-social{
-        margin: 10px auto;
-        width: 100vw;
-    }
 }
