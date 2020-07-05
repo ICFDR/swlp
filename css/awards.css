@@ -1,0 +1,118 @@
+html body{
+    margin: 0;
+    padding: 0;
+    background-color: #D4B5B0;
+}
+
+.single-features{
+    border-style: solid;
+    border-width: 5px;
+    box-shadow: 5px 10px;
+    border-color:#F69E7B;
+    background-color: #383E56;
+    margin-bottom: 50px;
+}
+
+.heading{
+    font-weight:bolder;
+    color:#383E56;
+    font-size:40px;
+    margin-top:30px;
+    padding:20px;
+    text-align: center;
+}
+
+.content{
+    padding:30px;
+    font-size:18px;
+    color:#383E56;
+}
+
+
+.nav-item {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 15px;
+}
+
+
+@media only screen and (min-width: 992px) {
+    .hide{
+        display:none;
+        color:#383E56;
+    }
+    .img{
+        margin-left:100px;
+         height:400px;
+          width: 400px;
+    }
+}
+
+.title{
+    color:#383E56;
+    padding-top:40px;
+}
+
+.features-title{
+    color:#F69E7B;
+}
+
+.text{
+    padding:10px;
+    text-align: center;
+    color:white;
+}
+
+
+.carousel-item{
+    height:500px;
+    margin-bottom: 40px;
+}
+
+.perks-title{
+    color:#383E56;
+    padding:40px;
+    margin-top:50px;
+    font-size:40px;
+    text-align: center;
+}
+
+.perks-content{
+    color:#383E56;
+    padding:40px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+button{
+    background-color: #F69E7B !important ;
+    border-color: #383E56 !important;
+    border-width: 2px !important;
+    color: #383E56 !important;
+    font-weight: bolder !important;
+    padding: 10px !important;
+    width:auto !important;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .carousel-item {
+        height:400px;
+    }
+
+    .vl{
+        display:none;
+    }
+
+    .img{
+        height:300px;
+        width:auto;
+    }
+}
+
+
+.vl {
+    border-left: 3px solid #383E56;
+    height: 200px;
+    margin-top:60px
+  }
