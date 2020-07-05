@@ -1,0 +1,13 @@
+html body{
+    margin: 0;
+    padding: 0;
+    background-color: #F69E7B;
+}
+.title{
+    margin: 15px;
+}
+.block-img{
+    max-width: 55vw;
+    height: auto;
+    margin: 0 auto;
+}
