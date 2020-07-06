@@ -116,3 +116,10 @@ button{
     height: 200px;
     margin-top:60px
   }
+
+ #read-more-btn:active{
+    transform: scale(0.95);
+ }
+ #apply-btn:active{
+     transform: scale(0.95);
+ }
