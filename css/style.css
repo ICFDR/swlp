@@ -86,7 +86,7 @@ button:focus{
     font-size: 30px;
 }
 
-#b-1-social ul li a:hover{
+#social-icons a:hover{
     transform: scale(1.5);
     transition: 0.5s;
     color: #383E56;

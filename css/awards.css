@@ -134,4 +134,67 @@ button:focus{
      transform: scale(0.95);
  }
 
+ #social-icons a:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+    color: #383E56;
+}
+
+
+@keyframes left-right-1{
+    0%{left: -100px; opacity: 0;}
+    50%{left: 0; opacity: 0.5;}
+    100%{left: 0; opacity: 1;}
+}
+
+#left-right-1{
+    animation-name: left-right-1;
+    animation-duration: 2s;
+    position: relative;
+}
+
+@keyframes right-left-1{
+    0%{right: -100px; opacity: 0;}
+    50%{right: 0; opacity: 0.5;}
+    100%{right: 0; opacity: 1;}
+}
+
+#right-left-1{
+    animation-name: right-left-1;
+    animation-duration: 2s;
+    position: relative;
+}
+
+
+@keyframes card-1{
+    0%{opacity: 0;}
+    50%{opacity: 0.5;}
+    100%{opacity: 1;}
+}
+#card-1{
+    animation-name: card-1;
+    animation-duration: 2s;
+}
+
+@keyframes card-2{
+    0%{opacity: 0;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+#card-2{
+    animation-name: card-2;
+    animation-duration: 2s;
+}
+
+@keyframes card-3{
+    0%{opacity: 0;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+#card-3{
+    animation-name: card-3;
+    animation-duration: 3s;
+}
+
+
  

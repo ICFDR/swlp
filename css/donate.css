@@ -32,3 +32,20 @@ html body{
         width:auto;
     }
 }
+
+#social-icons a:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+    color: #383E56;
+}
+
+@keyframes para-animation{
+    from{top: -30px; opacity: 0;}
+    to{top: 0; opacity: 1;}
+}
+
+#para-animation{
+    animation-name: para-animation;
+    animation-duration: 3s;
+    color: #383E56;
+}

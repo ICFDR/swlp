@@ -63,6 +63,12 @@ a{
     padding: 50px;
 }
 
+#social-icons a:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+    color: #383E56;
+}
+
 
 @media only screen and (max-width: 768px) {
     #image{
@@ -107,6 +113,28 @@ a{
 #left-right-2{
     animation-name: left-right-2;
     animation-duration: 4s;
+}
+
+@keyframes right-left-1{
+    0%{right: -100px; opacity: 0;}
+    50%{right: 0; opacity: 0.5;}
+    100%{right: 0; opacity: 1;}
+}
+#right-left-1{
+    animation-name: right-left-1;
+    animation-duration: 2s;
+    position: relative;
+}
+
+@keyframes right-left-2{
+    0%{right: -100px; opacity: 0;}
+    50%{right: 0; opacity: 0.2;}
+    100%{right: 0; opacity: 1;}
+}
+#right-left-2{
+    animation-name: right-left-1;
+    animation-duration: 4s;
+    position: relative;
 }
 
 @keyframes card-animation{

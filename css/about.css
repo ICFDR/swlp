@@ -115,6 +115,13 @@ p{
     color: #383E56;
 }
 
+#social-icons a:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+    color: #383E56;
+}
+
+
 
 @keyframes move-to-right-1{
     0%{left: -150px; opacity: 0;}
@@ -154,5 +161,54 @@ p{
 }
 #move-to-up-4{
     animation-name: move-to-up-4;
+    animation-duration: 5s;
+}
+
+
+@keyframes circle-1{
+    0%{opacity: 0;}
+    50%{opacity: 0.5;}
+    100%{opacity: 1;}
+}
+#circle-1{
+    animation-name: circle-1;
+    animation-duration: 2s;
+}
+
+@keyframes circle-2{
+    0%{opacity: 0;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+#circle-2{
+    animation-name: circle-2;
+    animation-duration: 2s;
+}
+
+@keyframes circle-3{
+    0%{opacity: 0;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+#circle-3{
+    animation-name: circle-3;
+    animation-duration: 3s;
+}
+@keyframes circle-4{
+    0%{opacity: 0;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+#circle-4{
+    animation-name: circle-4;
+    animation-duration: 4s;
+}
+@keyframes circle-5{
+    0%{opacity: 0;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+#circle-5{
+    animation-name: circle-5;
     animation-duration: 5s;
 }

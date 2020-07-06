@@ -61,3 +61,70 @@ button{
 }
 
 
+#social-icons a:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+    color: #383E56;
+}
+
+@keyframes left-right-1{
+    0%{left: -100px; opacity: 0;}
+    50%{left: 0px; opacity: 0.5;}
+    100%{left: 0px; opacity: 1;}
+}
+#left-right-1{
+    animation-name: left-right-1;
+    animation-duration: 2s;
+}
+
+@keyframes right-left-1{
+    0%{right: -100px; opacity: 0;}
+    50%{right: 0px; opacity: 0.5;}
+    100%{right: 0px; opacity: 1;}
+}
+#right-left-1{
+    animation-name: right-left-1;
+    animation-duration: 2s;
+}
+
+@keyframes left-right-2{
+    0%{left: -100px; opacity: 0;}
+    50%{left: 0px; opacity: 0.3;}
+    100%{left: 0px; opacity: 1;}
+}
+#left-right-2{
+    animation-name: left-right-2;
+    animation-duration: 4s;
+}
+
+@keyframes right-left-2{
+    0%{right: -100px; opacity: 0;}
+    50%{right: 0px; opacity: 0.3;}
+    100%{right: 0px; opacity: 1;}
+}
+#right-left-2{
+    animation-name: right-left-2;
+    animation-duration: 4s;
+}
+
+@keyframes left-right-3{
+    0%{left: -100px; opacity: 0;}
+    50%{left: 0px; opacity: 0.3;}
+    100%{left: 0px; opacity: 1;}
+}
+#left-right-3{
+    animation-name: left-right-3;
+    animation-duration: 6s;
+}
+
+@keyframes right-left-3{
+    0%{right: -100px; opacity: 0;}
+    50%{right: 0px; opacity: 0.3;}
+    100%{right: 0px; opacity: 1;}
+}
+#right-left-3{
+    animation-name: right-left-3;
+    animation-duration: 6s;
+}
+
+
