@@ -36,9 +36,10 @@ html body{
 
 .desc{
     text-align: justify;
-    font-size: 15px;
+    font-size: 18px;
     color:#383E56;
     padding: 20px;
+    margin-top:15px;
     font-weight: bolder;
 }
 
