@@ -93,4 +93,43 @@ p{
 }
 
 
+@keyframes move-to-right-1{
+    0%{left: -150px; opacity: 0;}
+    50%{left: 0px; opacity: 0.5;}
+    100%{left: 0px; opacity: 1;} 
+}
+#move-to-right-1{
+    animation-name: move-to-right-1;
+    animation-delay: 0;
+    animation-duration: 2s;
+}
 
+@keyframes move-to-down-2{
+    0%{top: -150px; opacity: 0;}
+    50%{top: -150px; opacity: 0;}
+    100%{top: 0px; opacity: 1;}
+}
+#move-to-down-2{
+    animation-name: move-to-down-2;
+    animation-duration: 2s;
+}
+
+@keyframes move-to-left-3{
+    0%{right: -150px; opacity: 0;}
+    50%{right: -150px; opacity: 0;}
+    100%{right: 0px; opacity: 1;}
+}
+#move-to-left-3{
+    animation-name: move-to-left-3;
+    animation-duration: 4s;
+}
+
+@keyframes move-to-up-4{
+    0%{bottom: -150px; opacity: 0;}
+    50%{bottom: -150px; opacity: 0;}
+    100%{bottom: 0px; opacity: 1;}
+}
+#move-to-up-4{
+    animation-name: move-to-up-4;
+    animation-duration: 5s;
+}
