@@ -44,6 +44,7 @@ h2{
     padding:20px;
     text-align: center;
     color:#F69E7B;
+    font-size: 100px;
 }
 
 
@@ -59,20 +60,42 @@ p{
     width:100px;
     border-radius: 50%;
     background-color: grey;
+    text-align: center;
 }
 
 .value{
     color:white;
     padding-top:20px;
-    padding-left: 10px;
     color:#383E56;
-    padding-bottom:50px
+    padding-bottom:50px;
+    font-size: 18px;
+    text-align: left;
+ 
 }
+
+@media only screen and (min-width: 992px) {
+    
+    .img{
+        
+         height:200px;
+          width: 200px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+  
+    .img{
+        height:200px;
+        width:auto;
+        
+    }
+}
+
 
 .desc{
     color:#383E56;
-    text-align: center;
-    padding:30px;
+    text-align: justify;
+    padding:50px;
     font-weight: bolder;
     font-size:20px;
 }

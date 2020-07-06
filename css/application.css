@@ -28,13 +28,15 @@ a{
     text-align: justify;
     font-size:18px;
     color:#383E56;
+    font-weight: bold;
 }
 
 
 
 #tic{
     padding:20px;
-    color:#383E56
+    color:#383E56;
+    font-weight: bolder;
 
 }
 
@@ -115,5 +117,5 @@ a{
 #card-animation{
     animation-name: card-animation;
     animation-duration: 2s;
-    animation-iteration-count: 2;
+    animation-iteration-count:infinite;
 }
