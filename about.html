@@ -9,11 +9,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<style>
-.dropdown-toggle::after { 
-    content: none; 
-} 
-</style>
 
 <body>
 
@@ -46,7 +41,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2>About SWLP</h2>
+                    <h2 style="margin-top: 50px;"></h2>
                 </div>
             </div>
 
@@ -87,7 +82,7 @@
             </div>
         </div>
 
-        <div class="section" id="corevalues" style="margin-top:100px; background-color: #D4B5B0">
+        <div class="section pt-5" id="corevalues" style="margin-top:100px; background-color: #D4B5B0">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
@@ -120,7 +115,7 @@
             </div>
         </div>
 
-        <div class="section" id="message" style="background-color: #D4B5B0">
+        <div class="section pt-5" id="message" style="background-color: #D4B5B0">
 
             <div class="container">
                 <div class="row" style="margin-bottom: 50px;">
@@ -169,7 +164,7 @@
 
 
         <section id="faqs" style="background-color: #F69E7B;padding-bottom: 50px;">
-            <div class="container">
+            <div class="container pt-5">
                 <div class="row">
                     <div class="col-12">
                         <h2 style="color: #383E56">Frequently Asked Questions (FAQs)</h2>
@@ -181,11 +176,11 @@
                         <h1 class="number">1</h1>
                         <p class="question">What are you looking for in a SWLP associate?
                         </p>
-                        <i href="#" class="fa fa-caret-down dropdown-toggle " id="dropdownMenuButton"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                            style="font-size: 50px;"></i>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <div>One must be constructive and passionate about social work. One must want to learn, give
+                        <i href="#" class="fa fa-caret-down" style="font-size: 50px;" onclick="myFunction()"></i>
+                        <div id="hideshow" style="display: none;">
+                            <div class="question font-italic font-weight-bold" style="font-size: 18px;">One must be
+                                constructive and passionate about
+                                social work. One must want to learn, give
                                 back to society, and be able to work with a team.
                             </div>
                         </div>
@@ -193,49 +188,102 @@
                     <div class="col-md-4">
                         <h1 class="number">2</h1>
                         <p class="question">What kind of involvement does SWLP need?</p>
-                        <i href="#" class="fa fa-caret-down" style="font-size: 50px;"></i>
+                        <i href="#" class="fa fa-caret-down" style="font-size: 50px;" onclick="Function2()"></i>
+                        <div id="hide2" style="display: none;">
+                            <div class="question font-italic font-weight-bold" style="font-size: 18px; ">The involvement
+                                and commitment levels vary depending on the responsibilities. But on a general basis, we
+                                expect a high level of commitment and professionalism from our associates.
+
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-4">
                         <h1 class="number">3</h1>
                         <p class="question">What are the opportunities available? Or what can I do?
                         </p>
-                        <i href="#" class="fa fa-caret-down" style="font-size: 50px;"></i>
+                        <i href="#" class="fa fa-caret-down" style="font-size: 50px;" onclick="Function3()"></i>
+                        <div id="hide3" style="display: none;">
+                            <div class="question font-italic font-weight-bold" style="font-size: 18px;">There are a wide
+                                range of opportunities such as grass-root work, creative designing, content development,
+                                fundraising, implementing your own project and research.
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-4">
                         <h1 class="number">4</h1>
-                        <p class="question">What if I can't manage to work 16-28 hrs during my program period?
+                        <p class="question ">What if I can't manage to work 16-28 hrs during my program period?
                         </p>
-                        <i class="fa fa-caret-down" style="font-size: 50px;"></i>
+                        <i class="fa fa-caret-down" style="font-size: 50px;" onclick="Function4()"></i>
+                        <div id="hide4" style="display: none;">
+                            <div class="question font-italic font-weight-bold" style="font-size: 18px;">Considering
+                                pliable work hours, we believe half-hour per day would not strain you. We expect our
+                                associates to keep themselves dedicated throughout the program, however, we allow breaks
+                                depending on the situation and urgency.
+
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-4">
                         <h1 class="number">5</h1>
                         <p class="question">Can I work remotely? Or can I work from home?
                         </p>
-                        <i href="#" class="fa fa-caret-down" style="font-size: 50px;"></i>
+                        <i href="#" class="fa fa-caret-down" style="font-size: 50px;" onclick="Function5()"></i>
+                        <div id="hide5" style="display: none;">
+                            <div class="question font-italic font-weight-bold" style="font-size: 18px;">Yes, that
+                                wouldn't be an issue. For many years now, we have associates working online.
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-4">
                         <h1 class="number">6</h1>
                         <p class="question">How does annual certification help?
                         </p>
-                        <i href="#" class="fa fa-caret-down" style="font-size: 50px;"></i>
+                        <i href="#" class="fa fa-caret-down" style="font-size: 50px;" onclick="Function6()"></i>
+                        <div id="hide6" style="display: none;">
+                            <div class="question font-italic font-weight-bold" style="font-size: 18px;">It shows your
+                                progress as a person and also in the organization. It's the reflection of determination,
+                                perseverance, and hard work. It also reflects your leadership and teamwork skills.
+
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-4">
                         <h1 class="number">7</h1>
                         <p class="question">How would it help me personally in life?
                         </p>
-                        <i href="#" class="fa fa-caret-down" style="font-size: 50px;"></i>
+                        <i href="#" class="fa fa-caret-down" style="font-size: 50px;" onclick="Function7()"></i>
+                        <div id="hide7" style="display: none;">
+                            <div class="question font-italic font-weight-bold" style="font-size: 18px;">SWLP programs
+                                groom you to be a future leader. The program will help you in networking, learning new
+                                skills and adding value to your profile.
+
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-4">
                         <h1 class="number">8</h1>
                         <p class="question">What skills should I possess to be a part of this?
                         </p>
-                        <i href="#" class="fa fa-caret-down" style="font-size: 50px;"></i>
+                        <i href="#" class="fa fa-caret-down" style="font-size: 50px;" onclick="Function8()"></i>
+                        <div id="hide8" style="display: none;">
+                            <div class="question font-italic font-weight-bold" style="font-size: 18px;">Skills vary
+                                depending on the type of volunteering you choose. Generally, you should have sound
+                                domain knowledge, an attitude to learn and motivation to help others.
+
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-4">
                         <h1 class="number">9</h1>
                         <p class="question">What is the preferable age for joining the SWLP?
                         </p>
-                        <i href="#" class="fa fa-caret-down" style="font-size: 50px;"></i>
+                        <i href="#" class="fa fa-caret-down" style="font-size: 50px;" onclick="Function9()"></i>
+                        <div id="hide9" style="display: none;">
+                            <div class="question font-italic font-weight-bold" style="font-size: 18px;">The age group of
+                                17-35, however, there is no age limit.
+
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -299,6 +347,82 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("hideshow");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+        function Function2() {
+            var x = document.getElementById("hide2");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+        function Function3() {
+            var x = document.getElementById("hide3");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+        function Function4() {
+            var x = document.getElementById("hide4");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+        function Function5() {
+            var x = document.getElementById("hide5");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+        function Function6() {
+            var x = document.getElementById("hide6");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+        function Function7() {
+            var x = document.getElementById("hide7");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+        function Function8() {
+            var x = document.getElementById("hide8");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+        function Function9() {
+            var x = document.getElementById("hide9");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+
+    </script>
 
 
 </body>

@@ -44,7 +44,8 @@ h2{
     padding:20px;
     text-align: center;
     color:#F69E7B;
-    font-size: 100px;
+    font-size: 50px !important;
+    padding-top: 30px;
 }
 
 
