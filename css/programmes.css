@@ -6,7 +6,9 @@ html body{
 
 *{
     scroll-behavior: smooth;
+    font-family: 'Nunito', sans-serif;
 }
+
 
 .title{
     padding:20px;

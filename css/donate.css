@@ -3,6 +3,10 @@ html body{
     padding: 0;
     background-color: #F69E7B;
 }
+
+*{
+    font-family: 'Nunito', sans-serif;
+}
 .title{
     margin: 15px;
 }
