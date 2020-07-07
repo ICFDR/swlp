@@ -56,12 +56,15 @@ p{
 
 
 .circles{
-    height:100px;
-    width:100px;
+    height:120px;
+    width:120px;
     border-radius: 50%;
     background-color: grey;
     text-align: center;
+    margin-top: 30px;
 }
+
+
 
 .value{
     color:white;
@@ -96,9 +99,10 @@ p{
     color:#383E56;
     text-align: justify;
     padding:50px;
-    font-weight: bolder;
     font-size:20px;
 }
+
+
 
 .number{
     font-size: 80px;
