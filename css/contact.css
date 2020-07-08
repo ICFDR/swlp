@@ -7,40 +7,21 @@ html body{
 *{
     font-family: 'Nunito', sans-serif;
 }
-.title{
-    margin: 15px;
-}
-.block-img{
-    max-width: 55vw;
-    height: auto;
-    margin: 0 auto;
-    padding-top:50px
-}
+
 
 @media only screen and (min-width: 992px) {
     .hide{
         display:none;
         color:#383E56;
+        
     }
 }
+
 
 .para{
     padding:30px;
-    font-size:20px;
-}
-
-
-@media only screen and (max-width: 768px) {
-    .block-img{
-        height:250px;
-        width:auto;
-    }
-}
-
-#social-icons a:hover{
-    transform: scale(1.5);
-    transition: 0.5s;
-    color: #383E56;
+    font-size:22px;
+    margin-top: 30px;
 }
 
 @keyframes para-animation{
@@ -51,6 +32,17 @@ html body{
 #para-animation{
     animation-name: para-animation;
     animation-duration: 3s;
+    color: #383E56;
+}
+
+.text{
+    color: #383E56;
+    padding:40px
+}
+
+#social-icons a:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
     color: #383E56;
 }
 

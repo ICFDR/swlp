@@ -6,6 +6,12 @@ html body{
 
 *{
     scroll-behavior: smooth;
+    font-family: 'Nunito', sans-serif;
+}
+
+.hands{
+    margin-top: 300px;
+    border-color: #383E56;
 }
 
 .nav-item {
