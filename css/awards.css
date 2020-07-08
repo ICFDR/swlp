@@ -199,5 +199,19 @@ button:focus{
     animation-duration: 3s;
 }
 
-
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 30px; 
+    right: 40px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: #fff!important; 
+    color: #383E56; 
+    cursor: pointer; 
+    padding: 15px!important; 
+    border-radius: 10px; 
+    font-size: 20px; 
+}
  
