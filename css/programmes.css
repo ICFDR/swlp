@@ -36,11 +36,31 @@ html body{
     
 }
 
+button:hover{
+    color: #fff !important;
+    border: 3px solid #383E56 !important;
+    background: #383E56!important;
+}
+
+.btn-one{
+    border-radius: 3px;
+    color: #fff!important;
+    border-color: #fff!important;
+    padding: 10px !important;
+    width:auto !important;
+    outline:none !important;
+}
+.btn-one:hover{
+    color: #fff !important;
+    border: 3px solid #F69E7B !important;
+    background: #F69E7B!important;
+    border-radius: 3px;
+}
+
 button{
-    background-color: #F69E7B !important ;
-    border-color: #383E56 !important;
-    border-width: 2px !important;
-    color: #383E56 !important;
+    background-color: transparent !important ;
+    border: 3px solid #252525 !important;
+    color:#252525 !important;
     font-weight: bolder !important;
     padding: 10px !important;
     width:auto !important;
