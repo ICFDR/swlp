@@ -17,7 +17,7 @@ html body{
 .nav-item {
     padding-left: 50px;
     padding-right: 50px;
-    font-size: 15px;
+    font-size: 13px;
 }
 .carousel-item {
     height:450px;
@@ -53,11 +53,16 @@ html body{
     transform: scale(0.95);
  }
 
+ #read-more-btn:hover{
+    color: #fff !important;
+    border: 3px solid #383E56 !important;
+    background: #383E56!important;
+}
+
  button{
-    background-color: #F69E7B !important ;
-    border-color: #383E56 !important;
-    border-width: 2px !important;
-    color: #383E56 !important;
+    background-color: transparent !important ;
+    border: 3px solid #252525 !important;
+    color:#252525 !important;
     font-weight: bolder !important;
     padding: 10px !important;
     width:auto !important;

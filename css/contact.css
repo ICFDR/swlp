@@ -35,6 +35,37 @@ html body{
     color: #383E56;
 }
 
+
+@keyframes card-1{
+    0%{opacity: 0;}
+    50%{opacity: 0.5;}
+    100%{opacity: 1;}
+}
+#card-1{
+    animation-name: card-1;
+    animation-duration: 2s;
+}
+
+@keyframes card-2{
+    0%{opacity: 0;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+#card-2{
+    animation-name: card-2;
+    animation-duration: 2s;
+}
+
+@keyframes card-3{
+    0%{opacity: 0;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+#card-3{
+    animation-name: card-3;
+    animation-duration: 3s;
+}
+
 .text{
     color: #383E56;
     padding:40px

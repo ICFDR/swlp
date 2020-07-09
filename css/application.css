@@ -12,7 +12,7 @@ html body{
 .nav-item {
     padding-left: 50px;
     padding-right: 50px;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 a{
@@ -147,4 +147,21 @@ a{
     animation-name: card-animation;
     animation-duration: 2s;
     animation-iteration-count:infinite;
+}
+
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 30px; 
+    right: 40px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: #fff; 
+    color: #383E56; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px; 
 }
