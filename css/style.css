@@ -39,6 +39,12 @@ body{
     #video{
         height:200px
     }
+    
+.vl {
+   display: none;
+    
+    
+  }
 
 }
 #quote{
@@ -103,6 +109,14 @@ button:focus{
     outline: none !important;
 }
 
+.vl {
+    border: 2px solid #39ff14;
+    height: 200px;
+    position: relative;
+    margin-top:50px
+    
+    
+  }
 
 
 .fa{
