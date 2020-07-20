@@ -25,7 +25,7 @@ body{
     font-size: 13px;
 }
 .carousel-item {
-    height:450px;
+    height:500px;
     width: 100%;
     
 }
@@ -111,7 +111,7 @@ button:focus{
 
 .vl {
     border: 2px solid #39ff14;
-    height: 200px;
+    height: 250px;
     position: relative;
     margin-top:50px
     
