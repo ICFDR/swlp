@@ -44,7 +44,7 @@ a{
 #fillform{
     padding:50px;
     text-align:center;
-    color:black;
+    color:white;
     font-size:25px
 }
 
@@ -53,13 +53,13 @@ a{
 }
 
 #link{
-    color:white;
+    color:#FF8C00;
     text-align: center;
     padding:40px
 }
 
 #sub{
-    color:black;
+    color:white;
     text-align: center;
     font-weight: bolder;
     padding: 50px;
