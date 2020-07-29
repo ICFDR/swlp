@@ -1,7 +1,7 @@
 html body{
     margin: 0;
     padding: 0;
-    background-color: #D4B5B0;
+    background-color: white;
 }
 
 
@@ -15,14 +15,14 @@ html body{
     border-style: solid;
     border-width: 5px;
     box-shadow: 5px 10px;
-    border-color:#F69E7B;
-    background-color: #383E56;
+    border-color:#39ff14;
+    background-color: black;
     margin-bottom: 50px;
 }
 
 .heading{
     font-weight:bolder;
-    color:#383E56;
+    color:#FF8C00;;
     font-size:40px;
     margin-top:30px;
     padding:20px;
@@ -32,7 +32,7 @@ html body{
 .content{
     padding:30px;
     font-size:18px;
-    color:#383E56;
+    color:black;
 }
 
 
@@ -46,7 +46,7 @@ html body{
 @media only screen and (min-width: 992px) {
     .hide{
         display:none;
-        color:#383E56;
+        color:black;
     }
     .img{
         margin-left:100px;
@@ -56,13 +56,13 @@ html body{
 }
 
 .title{
-    color:#383E56;
+    color:#FF8C00;;
     padding-top:40px;
     font-size: 50px;
 }
 
 .features-title{
-    color:#F69E7B;
+    color:#39ff14;
 }
 
 .text{
@@ -79,7 +79,7 @@ html body{
 }
 
 .perks-title{
-    color:#383E56;
+    color:#FF8C00;
     padding:40px;
     margin-top:50px;
     font-size:40px;
@@ -87,27 +87,45 @@ html body{
 }
 
 .perks-content{
-    color:#383E56;
+    color:black;
     padding:40px;
     text-align: justify;
     font-size: 18px;
 }
 
-button:hover{
-    color: #fff !important;
-    border: 3px solid #383E56 !important;
-    background: #383E56!important;
-}
 
 button{
-    background-color: transparent !important ;
-    border: 3px solid #252525 !important;
-    color:#252525 !important;
+    background-color: #39ff14 !important ;
+    border: 3px solid #39ff14 !important;
+    color:black !important;
     font-weight: bolder !important;
     padding: 10px !important;
     width:auto !important;
     outline:none !important;
+    border-radius: 20px !important;
+    box-shadow:2px 4px gray;
 }
+
+
+#read-more-btn:active{
+    transform: scale(0.95);
+ }
+
+
+
+#read-more-btn:hover{
+    color: black !important;
+    border: 3px solid #D3D3D3 !important;
+    background: #D3D3D3 !important;
+    transform: 2s;
+    transform: scale(0.9);
+    transition: 0.5s ease-in-out;
+}
+
+#read-more-btn:not(:hover){
+    transition: 0.5s ease-in-out;
+}
+
 
 button:focus{
     outline: none !important;
@@ -130,7 +148,7 @@ button:focus{
 
 
 .vl {
-    border-left: 3px solid #383E56;
+    border-left: 3px solid #39ff14;
     height: 200px;
     margin-top:60px
   }
