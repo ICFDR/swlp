@@ -15,7 +15,7 @@ html body{
 .nav-item {
     padding-left: 50px;
     padding-right: 50px;
-    font-size: 13px;
+    font-size: 18px;
 }
 
 
@@ -60,24 +60,33 @@ p{
 
 
 .circles{
-    height:120px;
-    width:120px;
+    height:140px;
+    width:140px;
     border-radius: 50%;
     background-color: grey;
     text-align: center;
     margin-top: 30px;
 }
 
-
+.border{
+    display: block;
+    margin: auto;
+    width: 120px;
+    height:4px;
+    margin-bottom: 40px; 
+    background-color: #39ff14;
+    border-color: #39ff14;
+}
 
 .value{
-    color:white;
+    
     padding-top:20px;
-    color:#383E56;
+    color:black;
     padding-bottom:50px;
     font-size: 18px;
     text-align: left;
- 
+    font-weight: bolder;
+    margin-left:10px
 }
 
 @media only screen and (min-width: 992px) {
@@ -99,7 +108,7 @@ p{
 
 
 .desc{
-    color:#383E56;
+    color:#FF8C00;
     text-align: justify;
     padding:50px;
     font-size:20px;
@@ -109,17 +118,17 @@ p{
 
 .number{
     font-size: 80px;
-    color: #383E56;
+    color: black;
     padding-top: 30px;
 }
 
 .question{
-    color:#383E56;
+    color:black;
     font-size: 20px;
 }
 
 .fa{
-    color: #383E56;
+    color:#FF8C00;
 }
 
 #social-icons a:hover{
@@ -127,6 +136,25 @@ p{
     transition: 0.5s;
     color: #383E56;
 }
+
+@media only screen and (max-width: 768px) {
+ 
+.vl {
+   display: none;
+    
+    
+  }
+
+}
+   
+.vl {
+    border: 2px solid #39ff14;
+    height: 250px;
+    position: relative;
+    margin-top:50px
+    
+    
+  }
 
 
 

@@ -54,3 +54,25 @@ html body{
     color: #383E56;
 }
 
+@media only screen and (max-width: 768px) {
+ 
+    .vl {
+       display: none;
+        
+        
+      }
+    
+    }
+
+    
+.vl {
+    border: 2px solid #39ff14;
+    height: 220px;
+    position: relative;
+    margin-top:50px
+    
+    
+  }
+
+
+

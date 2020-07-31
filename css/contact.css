@@ -32,7 +32,7 @@ html body{
 #para-animation{
     animation-name: para-animation;
     animation-duration: 3s;
-    color: #383E56;
+    color: black;
 }
 
 
@@ -66,14 +66,40 @@ html body{
     animation-duration: 3s;
 }
 
-.text{
-    color: #383E56;
-    padding:40px
-}
 
 #social-icons a:hover{
     transform: scale(1.5);
     transition: 0.5s;
     color: #383E56;
 }
+
+.features-title{
+    color:#FF8C00;
+    font-weight: bolder;
+}
+
+.text{
+    color: black;
+    padding:40px
+}
+
+@media only screen and (max-width: 768px) {
+ 
+    .vl {
+       display: none;
+        
+        
+      }
+    
+    }
+
+    
+.vl {
+    border: 2px solid #39ff14;
+    height: 220px;
+    position: relative;
+    margin-top:50px
+    
+    
+  }
 
