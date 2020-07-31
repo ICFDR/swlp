@@ -11,9 +11,9 @@ html body{
 
 
 .title{
-    padding:20px;
-   margin-top:40px;
-   color: #383E56;
+    
+   margin-top:35px;
+   color: #FF8C00;
 
 }
 
@@ -30,47 +30,44 @@ html body{
 }
 
 .content{
-    padding:40px;
-    font-size: 18px;
+    padding:20px;
+    font-size: 15px;
     text-align: justify;
     
 }
 
-button:hover{
-    color: #fff !important;
-    border: 3px solid #383E56 !important;
-    background: #383E56!important;
-}
-
-.btn-one{
-    border-radius: 3px;
-    color: #fff!important;
-    border-color: #fff!important;
-    padding: 10px !important;
-    width:auto !important;
-    outline:none !important;
-}
-.btn-one:hover{
-    color: #fff !important;
-    border: 3px solid #F69E7B !important;
-    background: #F69E7B!important;
-    border-radius: 3px;
-}
-
 
 button{
-    background-color: transparent !important ;
-    border: 3px solid #252525 !important;
-    color:#252525 !important;
+    background-color: #39ff14 !important ;
+    border: 3px solid #39ff14 !important;
+    color:black !important;
     font-weight: bolder !important;
     padding: 10px !important;
     width:auto !important;
     outline:none !important;
+    border-radius: 20px !important;
+    box-shadow:2px 4px gray;
 }
+
 
 #read-more-btn:active{
     transform: scale(0.95);
  }
+
+
+
+#read-more-btn:hover{
+    color: black !important;
+    border: 3px solid #D3D3D3 !important;
+    background: #D3D3D3 !important;
+    transform: 2s;
+    transform: scale(0.9);
+    transition: 0.5s ease-in-out;
+}
+
+#read-more-btn:not(:hover){
+    transition: 0.5s ease-in-out;
+}
 
 @media only screen and (max-width: 768px) {
    .banner{
