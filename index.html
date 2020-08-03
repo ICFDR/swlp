@@ -14,44 +14,48 @@
 
 <body>
 
-    <div class="bannerContainer">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: black;">
+        <a class="navbar-brand" href="./index.html" ><img
+                src="assets/swlplogo.png" style="height:50px;"></a>
+        <h1 style="color: #FF8C00; font-size: 34px; font-weight: bolder; padding-left: 20px;" class="mt-2">Social Work Leadership Programme</h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <nav class="navbar navbar-expand-lg navbar-light px-5 w-75 ml-5"
-            style="background-color: black; position:absolute; border-style:groove; border-width:3px; border-color: #39ff14; border-radius: 15px;">
-            <a class="navbar-brand" href="#"><img src="assets/swlplogo.png" style="height:50px;"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <b><a style="color:white; font-size: 15px;" class="nav-link mt-2" href=./about.html>ABOUT
+                            SWLP</a></b>
+                </li>
+                <li class="nav-item active">
+                    <b><a style="color:white; font-size: 15px;" class="nav-link mt-2"
+                            href=./application.html>APPLICATION</a></b>
+                </li>
+                <li class="nav-item ">
+                    <b><a style="color:white; font-size: 15px;" class="nav-link mt-2"
+                            href=./awards.html>AWARDS</a></b>
+                </li>
+                <li class="nav-item ">
+                    <b><a style="color:white; font-size: 15px;" class="nav-link mt-2"
+                            href=./programmes.html>PROGRAMMES</a></b>
+                </li>
+                <li class="nav-item ">
+                    <b><a style="color:white;font-size: 15px; " class="nav-link mt-2" href=./contact.html>CONTACT
+                            US</a></b>
+                </li>
+                <li class="nav-item ">
+                    <button id="read-more-btn" onclick="window.location.href='./donate.html'" type="button"
+                        class="btn btn-primary" style="outline: none;">Donate Now</button>
+                </li>
+                </ul>
+        </div>
+    </nav>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <b><a style="color:yellow; font-size: 15px;" class="nav-link mt-2" href=./about.html>ABOUT
-                                SWLP</a></b>
-                    </li>
-                    <li class="nav-item active">
-                        <b><a style="color:white; font-size: 15px;" class="nav-link mt-2"
-                                href=./application.html>APPLICATION</a></b>
-                    </li>
-                    <li class="nav-item ">
-                        <b><a style="color:white; font-size: 15px;" class="nav-link mt-2" href=./awards.html>AWARDS</a></b>
-                    </li>
-                    <li class="nav-item ">
-                        <b><a style="color:white; font-size: 15px;" class="nav-link mt-2"
-                                href=./programmes.html>PROGRAMMES</a></b>
-                    </li>
-                    <li class="nav-item ">
-                        <b><a style="color:white;font-size: 15px; " class="nav-link mt-2" href=./contact.html>CONTACT
-                                US</a></b>
-                    </li>
-                    <li class="nav-item ">
-                        <button id="read-more-btn" onclick="window.location.href='./donate.html'" type="button"
-                            class="btn btn-primary" style="outline: none;">Donate Now</button>
-                    </li>
+    
 
-            </div>
-        </nav>
+       
 
         <div class="container-fluid">
 
@@ -91,7 +95,7 @@
             <hr>
 
         </div>
-    </div>
+    
 
     <div class="container-fluid">
 
@@ -100,8 +104,8 @@
 
             <div class="container-fluid">
 
-                <div>
-                    <h3 class="text-danger font-weight-bold text-center col-12 ">About iCFDR</h3>
+                <div class="col-12">
+                    <h3 style="color: #FF8C00;">About iCFDR</h3>
                     <div class="border"></div>
                 </div>
                 <div class="row">
@@ -118,7 +122,7 @@
                         works for education, human rights, gender equality and empowerment, health and hygiene,
                         environmental sustainability and collaborations for better society.
 
-                        <div class="col-12" style="margin-top: 30px; margin-bottom: 20px;">
+                        <div class="col-12" style="margin-top: 30px; ">
                             <button id="read-more-btn" onclick="window.location.href='https://icfdr.org/';"
                                 type="button" class="btn btn-primary" style="outline: none;">Learn
                                 More!</button>
@@ -135,8 +139,8 @@
         <section style="background-color: white">
             <div class="container-fluid">
 
-                <div>
-                    <h3 class="text-danger font-weight-bold text-center col-12 ">Testimonials</h3>
+                <div class="col-12">
+                    <h3 style="color: #FF8C00;">Testimonials</h3>
                     <div class="border"></div>
                 </div>
                 <div class="row">
@@ -151,12 +155,10 @@
                                                     src="https://i.imgur.com/JI24t5h.jpg" width="110" height="110">
                                             </div>
                                         </div>
-                                        <div class="row text-center name mt-1">
+                                        <div class="row text-center name">
                                             <div class="col">
                                                 <h5 class="mb-0 profile-pic font-weight-bold" style="color: #FF8C00;">
-                                                    Elizabeth Smith</h5> <small class="mt-0">Director of
-                                                    Marketing</small>
-
+                                                    Garima</h5> 
                                             </div>
                                         </div>
                                     </div>
@@ -165,13 +167,20 @@
                                             <div class="col-md-8 col">
                                                 <p class="bold"> <span><img class="img-fluid quotes"
                                                             src="https://i.imgur.com/U20aFIt.png" width="40"
-                                                            height="40"></span> Growth of data is exponential and
-                                                    our
-                                                    ability to get true insight that matter was challenging with
-                                                    classic, traditional Bi tools. Vertix allow us to unserstand
-                                                    what is
-                                                    driving exceptions so we can take action <span><img
-                                                            class="img-fluid quotes-down"
+                                                            height="40"></span>The happiest people I know are those who
+                                                    lose themselves in the service of others.
+
+                                                    Being a part of Social Work Leadership Program @iCFDR, I always
+                                                    found myself being surrounded by challenges and a responsibility to
+                                                    make people's lives better.
+
+                                                    Social Work Leadership Program (SWLP) is a program that is making a
+                                                    difference in daily lives of millions of people. Not only it
+                                                    supports small kids but also empowers positive family and community
+                                                    relationship.
+
+                                                    I am really grateful that I am a part of this wonderful change.
+                                                    <span><img class="img-fluid quotes-down"
                                                             src="https://i.imgur.com/DPzmyiD.png" width="40"
                                                             height="40"> </span></p>
                                             </div>
@@ -184,15 +193,14 @@
                                     <div class="card-header bg-white text-center border-0 ">
                                         <div class="row justify-content-center ">
                                             <div class="col"> <img
-                                                    class="align-self-center text-center rounded-circle outside img-fluid"
-                                                    src="https://i.imgur.com/kkjs7EC.png" width="110" height="110">
+                                                    class="align-self-center text-center outside img-fluid" style="border-radius: 15px;"
+                                                    src="./assets/Navendra.jpeg" width="120" height="120">
                                             </div>
                                         </div>
-                                        <div class="row text-center name mt-1">
+                                        <div class="row text-center name">
                                             <div class="col">
                                                 <h5 class="mb-0 profile-pic font-weight-bold" style="color: #FF8C00;">
-                                                    Maria Hernandez</h5> <small class="mt-0">Director of
-                                                    Marketing</small>
+                                                    Navendra</h5> 
 
                                             </div>
                                         </div>
@@ -202,13 +210,20 @@
                                             <div class="col-md-8 col">
                                                 <p class="bold"> <span><img class="img-fluid quotes"
                                                             src="https://i.imgur.com/U20aFIt.png" width="40"
-                                                            height="40"></span> Growth of data is exponential and
-                                                    our
-                                                    ability to get true insight that matter was challenging with
-                                                    classic, traditional Bi tools. Vertix allow us to unserstand
-                                                    what is
-                                                    driving exceptions so we can take action <span><img
-                                                            class="img-fluid quotes-down"
+                                                            height="40"></span> I am so grateful to be a part of Social
+                                                    Work Leadership Programme. It feels good when work is done for the
+                                                    community".
+
+                                                    I loved the on the ground nature of SWLP. My association with the
+                                                    program started a couple of years ago and has been going strong ever
+                                                    since. What a great job they are doing to help the needy all over
+                                                    the country. I came across extremely committed and passionate people
+                                                    that are working day and night to make a difference in the
+                                                    vulnerable section of the society.
+
+                                                    At the end I would recommend all health professionals to join the
+                                                    cause and support the program.
+                                                    <span><img class="img-fluid quotes-down"
                                                             src="https://i.imgur.com/DPzmyiD.png" width="40"
                                                             height="40"></span> </p>
                                             </div>
@@ -222,15 +237,14 @@
                                     <div class="card-header bg-white text-center border-0 ">
                                         <div class="row justify-content-center ">
                                             <div class="col"> <img
-                                                    class="align-self-center text-center rounded-circle outside img-fluid"
-                                                    src="https://i.imgur.com/At1IG6H.png" width="110" height="110">
+                                                    class="align-self-center text-center outside img-fluid"  style="border-radius: 15px;"
+                                                    src="./assets/Tushar.jpeg" width="110" height="110">
                                             </div>
                                         </div>
-                                        <div class="row text-center name mt-1">
+                                        <div class="row text-center name">
                                             <div class="col">
                                                 <h5 class="mb-0 profile-pic font-weight-bold" style="color: #FF8C00;">
-                                                    Michael Smith</h5> <small class="mt-0">Director of
-                                                    Marketing</small>
+                                                    Tushar</h5> 
 
                                             </div>
                                         </div>
@@ -240,12 +254,17 @@
                                             <div class="col-md-8 col">
                                                 <p class="bold"> <span><img class="img-fluid quotes"
                                                             src="https://i.imgur.com/U20aFIt.png" width="40"
-                                                            height="40"></span> Growth of data is exponential and
-                                                    our
-                                                    ability to get true insight that matter was challenging with
-                                                    classic, traditional Bi tools. Vertix allow us to unserstand
-                                                    what is
-                                                    driving exceptions so we can take action <span><img
+                                                            height="40"></span> iCFDR has been a life changing decision
+                                                    for me personally. Social Work Leadership Program is not just about
+                                                    giving, though it's the primary focus and goal but it gave back a
+                                                    lot to me.
+
+                                                    Channeling your empathy and woke consciousness into something
+                                                    productive and at times life changing happenings. Learnings at every
+                                                    point whether it's being a cooperative team player or a team leader
+                                                    has helped me grow in other domains of life. ICFDR family is vast
+                                                    with such different personalities, every event and workshop is an
+                                                    experience of lifetime in itself.<span><img
                                                             class="img-fluid quotes-down"
                                                             src="https://i.imgur.com/DPzmyiD.png" width="40"
                                                             height="40"> </span></p>
@@ -353,9 +372,10 @@
                         <a class="btn btn-social-icon" href="mailto:reachus@icfdr.org"><i class="fa fa-envelope-o fa-lg"
                                 style="color: #39ff14;"></i></a>
                     </div>
-                    <div style="color: white; font-weight: bolder;" class="my-2">© Copyright 2020 All Rights Reserved</div>
+                    <div style="color: white; font-weight: bolder;" class="my-2">© Copyright 2020 All Rights Reserved
+                    </div>
                 </div>
-                
+
             </div>
         </div>
     </footer>

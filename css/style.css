@@ -19,34 +19,25 @@ body{
 }
 
 
-.bannerContainer {
-    position:relative; 
-    height:600px;
-    
-}
-.carousel {
-    position:absolute;
-    top:0;
- 
-}
-.navbar {
-    position:absolute;
-    top:30px;
-    z-index:10;
-    background:#fff;
-    width:100%;
+h3{
+    padding:10px;
+    text-align: center;
+    color:#F69E7B;
+    font-size: 40px !important;
 }
 
 
 
 .nav-item {
     padding-right: 10px;
-    font-size: 13px;
+    font-size: 18px;
 }
 
 .carousel-item {
-    height:500px;
+    height:600px;
     width: 100%;
+    position: relative;
+    padding-top:-10px
 }
 
 @media only screen and (max-width: 768px) {
