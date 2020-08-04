@@ -48,6 +48,7 @@ h3{
 .nav-item {
     
     font-size: 18px;
+    padding-right:2px
 }
 
 .carousel-item {
@@ -125,7 +126,8 @@ h3{
     transition: 0.5s ease-in-out;
 }
 
- button{
+ 
+button{
     background-color: #FF8C00 !important ;
     border: 3px solid #FF8C00 !important;
     color:white !important;
