@@ -28,6 +28,7 @@ h3{
     font-size: 40px !important;
 }
 
+
 @media only screen and (min-width: 992px) {
     .hidden{
         display:none;
@@ -125,9 +126,9 @@ h3{
 }
 
  button{
-    background-color: #39ff14 !important ;
-    border: 3px solid #39ff14 !important;
-    color:black !important;
+    background-color: #FF8C00 !important ;
+    border: 3px solid #FF8C00 !important;
+    color:white !important;
     font-weight: bolder !important;
     padding: 10px !important;
     width:auto !important;
