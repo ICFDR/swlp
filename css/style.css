@@ -28,10 +28,24 @@ h3{
     font-size: 40px !important;
 }
 
+@media only screen and (min-width: 992px) {
+    .hidden{
+        display:none;
+        
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .shown{
+        display:none;
+        
+    }
+}
+
 
 
 .nav-item {
-    padding-right: 10px;
+    
     font-size: 18px;
 }
 
@@ -44,7 +58,7 @@ h3{
 
 @media only screen and (max-width: 768px) {
     .carousel-item {
-        height:200px;
+        height:142px;
         width: 100%;
     }
 
