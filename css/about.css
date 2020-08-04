@@ -49,6 +49,33 @@ h2{
     padding-top: 30px;
 }
 
+button{
+    background-color: #39ff14 !important ;
+    border: 3px solid #39ff14 !important;
+    color:black !important;
+    font-weight: bolder !important;
+    padding: 10px !important;
+    width:auto !important;
+    outline:none !important;
+    border-radius: 20px !important;
+    box-shadow:2px 4px gray;
+}
+
+
+
+@media only screen and (min-width: 992px) {
+    .hidden{
+        display:none;
+        
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .shown{
+        display:none;
+        
+    }
+}
 
 
 

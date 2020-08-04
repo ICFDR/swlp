@@ -80,7 +80,7 @@ a{
 }
 
 @media only screen and (min-width: 992px) {
-    .hide{
+    .hidden{
         display:none;
         color:#383E56;
     }
