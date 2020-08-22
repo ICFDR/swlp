@@ -10,6 +10,7 @@ html body{
 *{
     scroll-behavior: smooth;
     font-family: 'Nunito', sans-serif;
+
 }
 
 .nav-item {
@@ -60,6 +61,7 @@ button{
     outline:none !important;
     border-radius: 20px !important;
     box-shadow:2px 4px gray;
+    
 }
 
 
