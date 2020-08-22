@@ -128,7 +128,7 @@ h3{
 
  
 button{
-    background-color: #FF8C00 !important ;
+    
     border: 3px solid #FF8C00 !important;
     color:white !important;
     font-weight: bolder !important;
@@ -137,6 +137,7 @@ button{
     outline:none !important;
     border-radius: 20px !important;
     box-shadow:2px 4px gray;
+    background-color: #FF8C00 !important ;
 }
 
 
