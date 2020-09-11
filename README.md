@@ -12,4 +12,4 @@
 Informative website for [iCFDR](http://icfdr.org/)'s SWLP Initiative.
 
 ### Contributors
-[pagalprogrammer](https://pagalprogrammer.dev) | [Saloni](https://github.com/saloni0104) | [Pawan](https://github.com/pavandeore)
+[pagalprogrammer](https://pagalprogrammer.dev) | [Saloni](https://github.com/saloni0104) | [Pawan](https://github.com/pavandeore) | [Nayem](https://nayem.me) 
